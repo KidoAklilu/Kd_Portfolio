@@ -46,3 +46,15 @@ app.use('/', indexRouter)
 // console.log('Server runnning at http://localhost:3000')
 
 export default app
+
+//contact
+// function Submit() {
+//   document.getElementById('Form').style.display = 'none'
+//   document.getElementById('confirmation').style = 'display: block'
+// }
+
+// if (window.addEventListener) {
+//   window.addEventListener('click', Submit, false)
+// } else if (window.attachEvent) {
+//   window.attachEvent('onclick', Submit)
+// }
