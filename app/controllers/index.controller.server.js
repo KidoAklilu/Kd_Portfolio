@@ -4,7 +4,7 @@ export function displayHomepage(req, res, next) {
 }
 
 export function displayAboutPage(req, res, next) {
-  res.render('index', { title: 'Kd Aklilu', page: 'about' })
+  res.render('index', { title: 'About', page: 'about' })
 }
 
 export function displayProjectPage(req, res, next) {

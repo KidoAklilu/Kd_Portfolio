@@ -60,7 +60,7 @@ body {
   width: 100%;
 }
 
-.container {
+/* .container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -68,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 20px 100px;
-}
+} */
 
 .container:after {
   content: '';
@@ -94,7 +94,7 @@ body {
 }
 
 .left {
-  background: url('./images/Contact.jpg') no-repeat center;
+  background: url('./images/Contact.jpeg') no-repeat center;
   background-size: cover;
   height: 100%;
 }
