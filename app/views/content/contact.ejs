@@ -1,14 +1,14 @@
 <!-- <h1><%= title %></h1> -->
 <!-- <h2 class="contactme">Feel free to contact me</h2> -->
-<form id="form" action="mailto:kidoget321@gmail.com" method="post">
+<form id="form" action="/home">
   <div class="container">
     <div class="contact-box">
       <div class="left"></div>
       <div class="right">
         <h2>Contact Us</h2>
-        <input type="text" class="field" placeholder="Your Name" />
-        <input type="text" class="field" placeholder="Your Email" />
-        <input type="text" class="field" placeholder="Phone" />
+        <input type="text" class="field" required="required" placeholder="Your Name" />
+        <input type="email" class="field" required="required" placeholder="Your Email" />
+        <input type="text" class="field"required="required" placeholder="Phone" />
         <textarea placeholder="Message" class="field"></textarea>
         <button class="btn">Send</button>
       </div>

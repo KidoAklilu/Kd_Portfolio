@@ -25,8 +25,8 @@ body {
 }
 .footer {
   display: flex;
-  justify-content: center;
-  text-align: center;
+  justify-content: right;
+  /* text-align: center; */
 }
 .footer {
   width: 100%;
@@ -35,24 +35,26 @@ body {
   bottom: 0;
   margin: 0 auto;
   position: fixed;
-  color: black;
+  color: rgb(163, 151, 151);
   padding-bottom: 20px;
+  padding-right: 40px;
 }
-* {
+/* contact */
+/* * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: 'Quicksand', sans-serif;
-}
-@media screen and (max-width: 880px) {
+} */
+/* @media screen and (max-width: 880px) {
   .contact-box {
     grid-template-columns: 1fr;
-  }
-  .left {
-    height: 200px;
-  }
+  } */
+.left {
+  height: 200px;
 }
-body {
+
+#form {
   height: 100vh;
   width: 100%;
 }
@@ -65,7 +67,7 @@ body {
   align-items: center;
   text-align: center;
   background-color: #fff;
-  box-shadow: 0px 0px 19px 5px rgba(0, 0, 0, 0.19);
+  box-shadow: 0px 0px 19px 5px rgba(224, 217, 217, 0.19);
 }
 
 .left {
@@ -97,23 +99,23 @@ textarea {
 .btn {
   width: 100%;
   padding: 0.5rem 1rem;
-  background-color: #2e9acc;
+  background-color: #42383c;
   color: #fff;
   font-size: 1.1rem;
   border: none;
   outline: none;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.1s;
 }
 
 .btn:hover {
-  background-color: #27ae60;
+  background-color: #4f6b5b;
 }
 
-.field:focus {
+/* .field:focus {
   border: 2px solid rgba(30, 85, 250, 0.47);
   background-color: #fff;
-}
+} */
 /* about me */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 * {
@@ -163,7 +165,7 @@ textarea {
   letter-spacing: 1.5px;
 }
 .content-section .content .button a:hover {
-  background-color: #6fa6c0;
+  background-color: rgb(112, 92, 92);
   color: #fff;
 }
 .content-section .social {
