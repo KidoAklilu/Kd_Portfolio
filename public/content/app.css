@@ -22,6 +22,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  height: 100vh;
+  width: 100%;
 }
 .footer {
   display: flex;
@@ -40,12 +42,7 @@ body {
   padding-right: 40px;
 }
 /* contact */
-/* * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
-} */
+
 /* @media screen and (max-width: 880px) {
   .contact-box {
     grid-template-columns: 1fr;
@@ -254,4 +251,109 @@ article h5 {
   text-transform: uppercase;
   font-size: 28px;
   margin-top: 30px;
+}
+/* //services */
+.content-box {
+  color: black;
+}
+.wrapperservice {
+  font-family: 'raleway';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* background-color: rgba(112, 54, 31, 0.438); */
+}
+.wrapperservice h1 {
+  font-size: 3em;
+  margin: 20px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.content.box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1000px;
+  margin-top: 10px;
+}
+.card {
+  display: inline-flex;
+  width: 320px;
+  flex-direction: row;
+  padding: 20px;
+  border-radius: 5px;
+  min-height: 220px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #fff;
+  transition: 0.3s;
+  margin: 5px 4px;
+  box-shadow: 0px 15px 30px rgb(0, 0, 0, 0.2);
+}
+.top {
+  text-align: center;
+}
+.card i {
+  margin: 20px;
+  color: rgb(136, 93, 28);
+}
+.card h2 {
+  margin-bottom: 10px;
+  font-weight: 400;
+  text-align: center;
+}
+.card p {
+  color: #6c757d;
+  text-align: center;
+}
+.card:hover i,
+.card.hover p {
+  color: fff;
+}
+.card:hover h2 {
+  font-weight: 600;
+}
+.card:hover p {
+  color: white;
+}
+.card:nth-child(1):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(59, 120, 161, 0.8) 0%,
+      rgba(48, 60, 167, 0.8) 100%
+    ),
+    url('./images/css.jpg.webp');
+  background-size: cover;
+}
+.card:nth-child(2):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 110, 0, 0.8) 0%,
+      rgba(255, 140, 0, 0.8) 100%
+    ),
+    url('./images/html.jpg');
+  background-size: cover;
+}
+.card:nth-child(4):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(255, 250, 205, 0.8) 0%,
+      rgba(255, 255, 210, 0.8) 100%
+    ),
+    url('./images/javascript.png');
+  background-size: cover;
+}
+.card:nth-child(4):hover p {
+  color: black;
+}
+.card:nth-child(5):hover {
+  background: linear-gradient(
+      45deg,
+      rgba(59, 120, 161, 0.8) 0%,
+      rgba(48, 60, 167, 0.8) 100%
+    ),
+    url('./images/C.png');
+  background-size: cover;
 }
