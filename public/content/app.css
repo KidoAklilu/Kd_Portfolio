@@ -357,3 +357,78 @@ article h5 {
     url('./images/C.png');
   background-size: cover;
 }
+/* project */
+.pcontainer {
+  width: 350px;
+  height: 500px;
+  /* perspective: 800px; */
+
+  margin: 20px;
+}
+
+.pcontainer:hover > .pcard {
+  cursor: pointer;
+  transform: rotateY(180deg) rotateZ(180deg);
+}
+
+.pcard {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.front1,
+.front2,
+.front3,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: 0 0 5px 2px rgba(189, 177, 177, 0.25);
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: black;
+}
+
+.front1 {
+  background: url('./images/weather.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.front2 {
+  background-image: url('./images/bmi.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.front3 {
+  background-image: url('./images/realtor.jpg.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.back {
+  background-color: black;
+  transform: rotateY(180deg) rotateZ(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+.back p {
+  text-align: center;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project {
+  text-align: center;
+  margin: 10px 20px;
+}
