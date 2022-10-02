@@ -1,7 +1,16 @@
 nav {
   margin-top: 20px !important;
 }
-ul {
+nav-links {
+  color: white !important;
+}
+.navbar-brand {
+  color: white !important;
+}
+li a {
+  color: white !important;
+}
+/* ul {
   list-style-type: none;
   margin: 0;
   overflow: hidden;
@@ -16,7 +25,7 @@ li a {
 }
 li:hover {
   color: #3d3d3d;
-}
+} */
 .head {
   font-size: 11pt;
   font-weight: normal;
@@ -34,7 +43,6 @@ body {
 .footer {
   display: flex;
   justify-content: right;
-  /* text-align: center; */
 }
 .footer {
   width: 100%;
@@ -49,10 +57,6 @@ body {
 }
 /* contact */
 
-/* @media screen and (max-width: 880px) {
-  .contact-box {
-    grid-template-columns: 1fr;
-  } */
 .left {
   height: 200px;
 }
@@ -63,7 +67,6 @@ body {
 }
 
 .contact-box {
-  max-width: 850px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
@@ -74,7 +77,7 @@ body {
 }
 
 .left {
-  background: url('./images/Contact.jpeg') no-repeat center;
+  background: url('./images/Contacts.jpeg') no-repeat center;
   background-size: cover;
   height: 100%;
 }
@@ -115,10 +118,6 @@ textarea {
   background-color: #4f6b5b;
 }
 
-/* .field:focus {
-  border: 2px solid rgba(30, 85, 250, 0.47);
-  background-color: #fff;
-} */
 /* about me */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
 * {
@@ -149,12 +148,14 @@ textarea {
 .content-section .title {
   text-transform: uppercase;
   font-size: 28px;
+  font-style: italic;
 }
 .content-section .content p {
   margin-top: 10px;
   font-family: sans-serif;
   font-size: 18px;
   line-height: 1.5;
+  font-family: 'lato' 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .content-section .content .button {
   margin-top: 30px;
@@ -178,55 +179,7 @@ textarea {
 .content-section .social i:hover {
   color: #3d3d3d;
 }
-/* @media screen and (max-width: 768px) {
-  .container {
-    width: 80%;
-    display: block;
-    margin: auto;
-    padding-top: 50px;
-  }
-  .content-section {
-    float: none;
-    width: 100%;
-    display: block;
-    margin: auto;
-  }
-  .image-section {
-    float: none;
-  }
-  .image-section img {
-    display: block;
-    margin: auto;
-  }
-  .content-section .title {
-    text-align: center;
-    font-size: 19px;
-  }
-  .content-section .content .button {
-    text-align: center;
-  }
-  .content-section .content .button a {
-    padding: 9px 30px;
-  }
-  .content-section .social {
-    text-align: center;
-  }
-  .contactme {
-    text-align: center;
-  } */
-/* home */
-/* .wrapper { */
-/* text-align: center;
-    color: white;
-  } */
-/* } */
-.wrapper {
-  text-align: center;
-  color: #fff;
-  line-height: 1.5;
-  letter-spacing: 1px;
-  padding: 30px 100px;
-}
+
 .logo {
   background-image: url('./images/kd.png');
 }
@@ -238,11 +191,17 @@ textarea {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  padding: 30px 100px;
 }
 article h1 {
   font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
+  font-family: cursive;
 }
 article img {
   height: 200px;
@@ -252,14 +211,16 @@ article img {
   margin-top: 60px;
 }
 blockquote {
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
   margin-top: 30px;
-}
-article h5 {
+  font-family: cursive;
   text-transform: uppercase;
   font-size: 28px;
-  margin-top: 30px;
+}
+article p {
+  font-style: italic;
+  margin-top: 40px;
 }
 /* //services */
 .content-box {
@@ -271,13 +232,14 @@ article h5 {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* background-color: rgba(112, 54, 31, 0.438); */
 }
 .wrapperservice h1 {
   font-size: 3em;
   margin: 20px 0;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .content.box {
   display: flex;
@@ -304,6 +266,10 @@ article h5 {
 .top {
   text-align: center;
   width: 70%;
+  font-weight: 400;
+  text-overflow: clip;
+  text-transform: inherit;
+  font-size: 2em;
 }
 .card i {
   margin: 20px;
@@ -371,8 +337,6 @@ article h5 {
 .pcontainer {
   width: 350px;
   height: 500px;
-  /* perspective: 800px; */
-
   margin: 20px;
 }
 
@@ -415,7 +379,7 @@ article h5 {
   background-repeat: no-repeat;
 }
 .front3 {
-  background-image: url('./images/realtor.jpg.webp');
+  background-image: url('./images/realtor.png.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
