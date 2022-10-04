@@ -1,1 +1,1 @@
-export const Secret = 'MySecret' // encrpt seassion information
+export const Secret = 'MySecret' // encrpt session information

@@ -1,4 +1,6 @@
-// import express and third partmodules
+//  Kidist AKlilu, 301220223, Oct/4/2022
+
+// import express and third partymodules
 import express from 'express'
 import cookieParser from 'cookie-parser'
 import logger from 'morgan'
@@ -40,21 +42,4 @@ app.use(
 
 app.use('/', indexRouter)
 
-//run app
-// app.listen(3000)
-
-// console.log('Server runnning at http://localhost:3000')
-
 export default app
-
-//contact
-// function Submit() {
-//   document.getElementById('Form').style.display = 'none'
-//   document.getElementById('confirmation').style = 'display: block'
-// }
-
-// if (window.addEventListener) {
-//   window.addEventListener('click', Submit, false)
-// } else if (window.attachEvent) {
-//   window.attachEvent('onclick', Submit)
-// }

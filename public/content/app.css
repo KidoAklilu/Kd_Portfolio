@@ -1,31 +1,13 @@
-nav {
-  margin-top: 20px !important;
-}
-nav-links {
-  color: white !important;
-}
-.navbar-brand {
-  color: white !important;
+/* Kidist AKlilu, 301220223, Oct/4/2022 */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 li a {
   color: white !important;
 }
-/* ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-}
-li {
-  float: left;
-  padding-right: 5%;
-  margin-left: 5%;
-}
-li a {
-  display: inline;
-}
-li:hover {
-  color: #3d3d3d;
-} */
 .head {
   font-size: 11pt;
   font-weight: normal;
@@ -56,7 +38,6 @@ body {
   padding-right: 40px;
 }
 /* contact */
-
 .left {
   height: 200px;
 }
@@ -120,12 +101,6 @@ textarea {
 
 /* about me */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
 
 .container {
   width: 60%;
@@ -180,8 +155,11 @@ textarea {
   color: #3d3d3d;
 }
 
-.logo {
-  background-image: url('./images/kd.png');
+#logo {
+  width: 80px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 50%;
 }
 .wrapper {
   min-height: 100vh;
@@ -201,7 +179,7 @@ article h1 {
   font-weight: 700;
   font-size: 50px;
   text-transform: uppercase;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 article img {
   height: 200px;
@@ -214,12 +192,12 @@ blockquote {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 22px;
   margin-top: 30px;
-  font-family: cursive;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   font-size: 28px;
 }
 article p {
-  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   margin-top: 40px;
 }
 /* //services */
