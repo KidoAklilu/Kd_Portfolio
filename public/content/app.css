@@ -275,19 +275,20 @@ article p {
 .card:nth-child(1):hover {
   background: linear-gradient(
       45deg,
-      rgba(59, 120, 161, 0.8) 0%,
+      rgba(69, 114, 145, 0.8) 0%,
       rgba(48, 60, 167, 0.8) 100%
     ),
-    url('./images/css.jpg.webp');
+    url('./images/html:css.png');
+
   background-size: cover;
 }
 .card:nth-child(2):hover {
   background: linear-gradient(
       45deg,
-      rgba(255, 110, 0, 0.8) 0%,
-      rgba(255, 140, 0, 0.8) 100%
+      rgba(40, 117, 161, 0.8) 0%,
+      rgba(21, 80, 128, 0.8) 100%
     ),
-    url('./images/html.jpg');
+    url('./images/mysql.jpg');
   background-size: cover;
 }
 .card:nth-child(4):hover {
@@ -316,6 +317,9 @@ article p {
   width: 350px;
   height: 500px;
   margin: 20px;
+}
+.project {
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .pcontainer:hover > .pcard {
