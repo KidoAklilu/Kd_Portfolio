@@ -1,5 +1,5 @@
 import debug from 'debug'
-debug('comp-229')
+debug('portfolio')
 import http from 'http'
 
 import app from './app/app.js'
